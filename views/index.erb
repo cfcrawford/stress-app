@@ -1,0 +1,11 @@
+<ul>
+<% @cheerups.each do | cheerup | %>
+      <li>
+        <p><strong>"<%= cheerup.text %>",
+          by <%= cheerup.category %></strong>,
+          <%= cheerup.source %></p>
+     </li>
+
+      <% end %>
+
+    </ul>
