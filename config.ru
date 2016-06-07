@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
-require './models/stress'
+require './models/cheerup'
 require './app'
 
 run StressApp
