@@ -12,4 +12,4 @@ class CreateCheerups < ActiveRecord::Migration
 end
 
 
-# Cheerup.create({text: "Don't worry be happy!", image: "https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg", source: "Bobby McFerrin", category: "Worry", votes: "5"})
+# Cheerup.create({text: "Some advice!", image: "https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg", source: "Someone", category: "Stress", votes: "55"})

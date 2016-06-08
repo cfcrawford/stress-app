@@ -1,0 +1,8 @@
+<%= @cheerup.text %>
+<%= @cheerup.source %>
+<%= @cheerup.image %>
+
+<form action="/songs/<%= @cheerup.id %>" method="post" class='delete'>
+  <input type="hidden" name="_method" value="delete">
+  <input type='submit' value="Delete">
+</form>
