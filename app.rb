@@ -31,12 +31,33 @@ class StressApp < Sinatra::Base
     redirect "/cheerups/" + @cheerup.id.to_s
   end
 
+  post '/cheerups/:id' do
+    @cheerup = Cheerup.find(params[:id])
+    @cheerup.update_attributes(params[:cheerup])
+    redirect "/cheerups/"
+  end
+
+
   get '/cheerups/:id' do
     @cheerup = Cheerup.find(params[:id])
     erb :show
   end
 
+  get '/cheerups/:id/edit' do
+    @cheerup = Cheerup.find(params[:id])
+    erb :edit
+  end
+
   post '/cheerups/:id' do
+    @cheerup = Cheerup.find(params[:id])
+    if @cheerup.update_attributes(params[:cheerups])
+      redirect("/cheerups")
+    else
+      redirect("/cheerups/#{@cheerup.id}")
+    end
+  end
+
+  post '/cheerups/:id/delete' do
     @cheerup = Cheerup.find(param[:id])
     @cheerup.destroy
     redirect("/cheerups")
