@@ -2,9 +2,9 @@
 <form method="POST" action="/cheerups/<%= @cheerup.id %>" >
     Category: <br>
     <input type="text" name="cheerup[category]" value='<%="#{@cheerup.category}" %>' placeholder="Placeholder"><br>
-    <!-- Text: <br>
-    <input type="text" name="cheerup[source]" value="Source"><br>
+    Text: <br>
+    <input type="text" name="cheerup[source]" value='<%="#{@cheerup.source}" %>' placeholder="Placeholder"><br>
     Image: <br>
-    <input type="text" name="cheerup[image]" value="Image"><br> -->
+    <input type="text" name="cheerup[image]" value='<%="#{@cheerup.image}" %>' placeholder="Placeholder"><br> -->
     <input type="submit" value="Save">
   </form>
