@@ -49,6 +49,11 @@ class StressApp < Sinatra::Base
     erb :edit
   end
 
+  #path to friends quote topic page
+  get '/friends' do
+    @cheerup = Cheerup.all
+    erb :friends
+  end
   #deletes cheerup
   # post '/cheerups/:id' do
   #   cheerup = Cheerup.find(params[:id])

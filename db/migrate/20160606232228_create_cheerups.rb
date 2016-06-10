@@ -5,7 +5,7 @@ class CreateCheerups < ActiveRecord::Migration
       t.string :image
       t.string :source
       t.string :category
-      t.string :votes
+      t.integer :votes
       t.timestamps
     end
   end
