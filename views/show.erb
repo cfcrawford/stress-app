@@ -1,12 +1,12 @@
-<h1>Delete Page</h1>
+<h1>Delete a Quote</h1>
+<%= @cheerup.category %>
 <%= @cheerup.text %>
 <%= @cheerup.source %>
-<%= @cheerup.image %>
 
 <form action="/cheerups/<%= @cheerup.id %>/delete" method="post" class='delete'>
   <input type="hidden" name="_method" value="delete">
   <input type='submit' value="Delete">
 </form>
-<form action="/cheerups/<%= @cheerup.id %>/edit" method="GET">
+<!-- <form action="/cheerups/<%= @cheerup.id %>/edit" method="GET">
 <button>Edit</button>
-</form>
+</form> -->

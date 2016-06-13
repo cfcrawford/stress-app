@@ -1,10 +1,15 @@
-<h1>This is the Edit Page</h1>
+<h1>Edit a Quote</h1>
+<div class="form">
 <form method="POST" action="/cheerups/<%= @cheerup.id %>" >
     Category: <br>
     <input type="text" name="cheerup[category]" value='<%="#{@cheerup.category}" %>' placeholder="Placeholder"><br>
     Text: <br>
+    <input type="text" name="cheerup[text]" value='<%="#{@cheerup.text}" %>' placeholder="Placeholder"><br>
+    Source: <br>
     <input type="text" name="cheerup[source]" value='<%="#{@cheerup.source}" %>' placeholder="Placeholder"><br>
-    Image: <br>
-    <input type="text" name="cheerup[image]" value='<%="#{@cheerup.image}" %>' placeholder="Placeholder"><br> -->
     <input type="submit" value="Save">
+    <form method='post' action='/cheerup/<%= @cheerup.id %>'>
+      <input class='showDeleteButton' type="submit" name='_method' value="Delete">
+    </form>
   </form>
+  </div>

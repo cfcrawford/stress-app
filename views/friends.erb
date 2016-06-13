@@ -1,27 +1,26 @@
 <html>
   <head><title>De-Stress App</title></head>
-  <body>
+  <body class="friends">
     <h1 class="main">The De-Stress App</h1>
-    <div class="categories">
-    <h3>Quotes About Friends Page</h3>
+    <div class="quotes">
+    <h3>Friends</h3>
 
     </div>
-    <ul>
+    <div class="cheerups">
+    <ul class="quotes-list">
 <% @cheerup.each do | cheerup | %>
-  <% if cheerup.category == "happy" %>
-
+  <% if cheerup.category == "friends" %>
   <li>
     <p><strong>"<%= cheerup.text %>"
-    by <%= cheerup.source %></strong>
-    <%= cheerup.category %>
-    <%= cheerup.image %>
-    <%= cheerup.votes %>
+    - <%= cheerup.source %></strong>
   </p>
   </li>
   <li><a href="/cheerups/<%= cheerup.id %>/edit">Edit</a></li>
+  <li><a href="/cheerups/<%= cheerup.id %>/:id/show">Delete</a></li>
 <% end %>
 <% end %>
 </ul>
+</div>
   </body>
 
 

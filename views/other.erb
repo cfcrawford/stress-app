@@ -3,13 +3,14 @@
   <body>
     <h1 class="main">The De-Stress App</h1>
     <div class="quotes">
-    <h3>Relationships</h3>
+    <h3>Other</h3>
 
     </div>
     <div class="cheerups">
     <ul class="quotes-list">
 <% @cheerup.each do | cheerup | %>
-  <% if cheerup.category == "relationships" %>
+  <% if cheerup.category == "other" %>
+
   <li>
     <p><strong>"<%= cheerup.text %>"
     - <%= cheerup.source %></strong>
@@ -21,4 +22,6 @@
 </ul>
 </div>
   </body>
+
+
 </html>

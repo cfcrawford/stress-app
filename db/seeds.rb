@@ -106,75 +106,165 @@ Cheerup.create([
     votes: "5"
   },
    {
-    text: "",
+    text: "Happiness is having a large, loving, caring, close-knit family in another city.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "George Burns",
+    category: "family",
     votes: "5"
   },
    {
-    text: "",
+    text: "Go to Heaven for the climate, Hell for the company.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Mark Twain",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "Wine is constant proof that God loves us and loves to see us happy.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Benjamin Franklin",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "If you could kick the person in the pants responsible for most of your trouble, you wouldn't sit for a month.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Theodore Roosevelt",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "I like long walks, especially when they are taken by people who annoy me.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Fred Allen",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "Those who are easily shocked should be shocked more often.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Mae West",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "Between two evils, I always pick the one I never tried before.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Mae West",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "Don't sweat the petty things and don't pet the sweaty things.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "George Carlin",
+    category: "laugh",
     votes: "5"
   },
    {
-    text: "",
+    text: "Most people work just hard enough not to get fired and get paid just enough money not to quit.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "George Carlin",
+    category: "work",
     votes: "5"
   },
    {
-    text: "",
+    text: "Your best is good enough.",
     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
-    source: "",
-    category: "",
+    source: "Vivian E. Greenberg",
+    category: "other",
     votes: "5"
   },
+  {
+    text: "A real friend is one who walks in when the rest of the world walks out.",
+    source: "Walter Winchell",
+    category: "friends",
+    votes: "5"
+  },
+  {
+    text: "It is one of the blessings of old friends that you can afford to be stupid with them.",
+    source: "Ralph Waldo Emerson",
+    category: "friends",
+    votes: "5"
+  },
+  {
+    text: "You get in the biggest fight with the people you care about the most because those are the relationships you're willing to fight for.",
+    source: "Unknown",
+    category: "friends",
+    votes: "5"
+  },
+  {
+    text: "A stranger stabs you in the front. A bad friend stabs you in the back. An ex- boyfriend stabs you in the heart. but… best friends only poke each other with straws!",
+    source: "Unknown",
+    category: "friends",
+    votes: "5"
+  },
+  {
+    text: "Boredom always precedes a period of great creativity.",
+    source: "Robert M. Pirsig",
+    category: "boredom",
+    votes: "5"
+  },
+{
+    text: "When you pay attention to boredom it gets unbelievably interesting.",
+    source: "Jon Kabat-Zinn",
+    category: "boredom",
+    votes: "5"
+  },
+{
+    text: "Boredom is the dream bird that hatches the egg of experience. A rustling in the leaves drives him away.",
+    source: "Walter Benjamin",
+    category: "boredom",
+    votes: "5"
+  },
+{
+    text: "Boredom is the dream bird that hatches the egg of experience. A rustling in the leaves drives him away.",
+    source: "Thomas Carlyle",
+    category: "boredom",
+    votes: "5"
+  },
+{
+    text: "Boredom or being sick of what you've done before is a big part of being in a band.",
+    source: "Alex Kapranos",
+    category: "boredom",
+    votes: "5"
+  },
+{
+    text: "It's precisely in those moments when I don't know what to do, boredom drives one to try a host of possibilities to either get somewhere or not get anywhere.",
+    source: "Anish Kapoor",
+    category: "boredom",
+    votes: "5"
+  }
+# {
+#     text: "",
+#     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
+#     source: "",
+#     category: "",
+#     votes: "5"
+#   },
+# {
+#     text: "",
+#     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
+#     source: "",
+#     category: "",
+#     votes: "5"
+#   },
+# {
+#     text: "",
+#     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
+#     source: "",
+#     category: "",
+#     votes: "5"
+#   },
+# {
+#     text: "",
+#     image: "src=https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg",
+#     source: "",
+#     category: "",
+#     votes: "5"
+#   },
+
+
   # {
   #   text: "Don't let it get to you!", image: "https://pbs.twimg.com/media/BWqC4tjCYAEDu76.jpg", source: "Jane Doe", category: "Worry", votes: "19"
   # },

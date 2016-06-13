@@ -1,11 +1,17 @@
-<ul>
-<% @cheerup.each do | cheerup | %>
-  <li>
-    <p><strong>"<%= cheerup.text %>",
-    by <%= cheerup.source %></strong>,
-    <%= cheerup.category %>,
-    <%= cheerup.image %></p>
-  </li>
-  <li><a href="/cheerups/<%= cheerup.id %>/edit">Edit</a></li>
-<% end %>
-</ul>
+<body class="index">
+  <div class="quotes">
+    <h3>All Quotes</h3>
+  </div>
+  <div class="cheerups">
+    <ul class="quotes-list">
+    <% @cheerup.each do | cheerup | %>
+      <li>
+        <p><strong>"<%= cheerup.text %>"
+        - <%= cheerup.source %></strong>
+        </p>
+      </li>
+      <li><a href="/cheerups/<%= cheerup.id %>/edit">Edit</a></li>
+    <% end %>
+    </ul>
+  </div>
+</body>

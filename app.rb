@@ -54,6 +54,43 @@ class StressApp < Sinatra::Base
     @cheerup = Cheerup.all
     erb :friends
   end
+
+  get '/boredom' do
+    @cheerup = Cheerup.all
+    erb :boredom
+  end
+
+  get '/existential-crisis' do
+    @cheerup = Cheerup.all
+    erb :existentialcrisis
+  end
+
+  get '/family' do
+    @cheerup = Cheerup.all
+    erb :family
+  end
+
+  get '/laugh' do
+    @cheerup = Cheerup.all
+    erb :laugh
+  end
+
+  get '/other' do
+    @cheerup = Cheerup.all
+    erb :other
+  end
+
+  get '/work' do
+    @cheerup = Cheerup.all
+    erb :work
+  end
+
+  get '/relationships' do
+    @cheerup = Cheerup.all
+    erb :relationships
+  end
+
+
   #deletes cheerup
   # post '/cheerups/:id' do
   #   cheerup = Cheerup.find(params[:id])
@@ -64,13 +101,16 @@ class StressApp < Sinatra::Base
   #   end
   # end
 
+
+  get '/cheerups/show/:id' do
+    @song = Song.find(params[:id])
+    erb :show
+  end
+
   #deletes a cheerup and reroutes to all cheerups page
   post '/cheerups/:id/delete' do
     cheerup = Cheerup.find(params[:id])
     cheerup.destroy!
     redirect("/cheerups")
   end
-
-
-
 end
